@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/celaldrg/todoage/actions/workflows/ci.yml/badge.svg)](https://github.com/celaldrg/todoage/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/celaldrg/todoage?sort=semver)](https://github.com/celaldrg/todoage/releases)
 
 **How old are your TODOs?** `todoage` finds `TODO`, `FIXME`, `HACK` and `XXX` comments in a git
 repository and uses `git blame` to show **who wrote each one and how long ago**, oldest first.
