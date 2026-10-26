@@ -7,6 +7,9 @@ updates:
     groups:
       actions:
         patterns: ["*"]
+    ignore:
+      # the toolchain tag is the MSRV pin, not an outdated action version
+      - dependency-name: dtolnay/rust-toolchain
   - package-ecosystem: cargo
     directory: /
     schedule:
