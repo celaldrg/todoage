@@ -1,0 +1,16 @@
+[package]
+name = "todoage"
+version = "0.1.0"
+edition = "2021"
+description = "Find TODO/FIXME/HACK comments in a git repo and see who wrote them and how old they are"
+license = "MIT"
+repository = "https://github.com/celaldrg/todoage"
+readme = "README.md"
+keywords = ["todo", "git", "blame", "cli", "technical-debt"]
+categories = ["command-line-utilities", "development-tools"]
+rust-version = "1.85"
+
+[dependencies]
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
