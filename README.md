@@ -1,8 +1,12 @@
-# todoage
+<p align="center">
+  <img src="assets/banner.webp" alt="todoage" width="100%">
+</p>
 
-[![CI](https://github.com/celaldrg/todoage/actions/workflows/ci.yml/badge.svg)](https://github.com/celaldrg/todoage/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/celaldrg/todoage?sort=semver)](https://github.com/celaldrg/todoage/releases)
+<p align="center">
+  <a href="https://github.com/celaldrg/todoage/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/celaldrg/todoage/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+  <a href="https://github.com/celaldrg/todoage/releases"><img alt="Release" src="https://img.shields.io/github/v/release/celaldrg/todoage?sort=semver"></a>
+</p>
 
 **How old are your TODOs?** `todoage` finds `TODO`, `FIXME`, `HACK` and `XXX` comments in a git
 repository and uses `git blame` to show **who wrote each one and how long ago**, oldest first.
@@ -10,7 +14,17 @@ repository and uses `git blame` to show **who wrote each one and how long ago**,
 `grep TODO` tells you that technical debt exists. `todoage` tells you which items have been "temporary" for eight years,
 who to ask about them, and lets CI fail when new ones are left to rot.
 
+<p align="center">
+  <img src="assets/terminal-demo.webp" alt="todoage, real terminal output" width="860">
+  <br><sub>Real output: <code>todoage --limit 12</code> in a clone of <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a>.</sub>
+</p>
+
 ## Example
+
+<p align="center">
+  <img src="assets/demo.gif" alt="todoage running in a terminal" width="860">
+  <br><sub>Recorded with <a href="https://github.com/charmbracelet/vhs">vhs</a>.</sub>
+</p>
 
 Real output on [ripgrep](https://github.com/BurntSushi/ripgrep) (commit `6892bc2`, 26 October 2026):
 
